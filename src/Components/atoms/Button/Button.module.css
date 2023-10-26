@@ -1,0 +1,69 @@
+.headerButton {
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+    padding: 14px;
+    border: none;
+    background-color: #F2F5F9;
+}
+
+.headerButton img {
+    width: 24px;
+    height: 24px;
+}
+
+.headerButton:hover {
+    filter: brightness(0.9);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.headerButton:active {
+    filter: brightness(0.6);
+    transition: 0.1s ease;
+}
+
+.itemButton {
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    padding: 12px;
+    border: 1px solid #F2F5F9;
+    background-color: rgba(28,28,28,0);
+}
+
+.itemButton .img {
+    width: 19px;
+    height: 19px;
+}
+
+.itemButton:hover {
+    filter: brightness(0.9);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.itemButton:active {
+    filter: brightness(0.6);
+    transition: 0.1s ease;
+}
+
+.redButton {
+    width: 246px;
+    height: 52px;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background-color:#FF4D4D;
+    border: none;
+    color: white;
+}
+
+.redButton:hover {
+    filter: brightness(0.9);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.redButton:active {
+    filter: brightness(0.6);
+    transition: 0.1s ease;
+}
