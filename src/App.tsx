@@ -1,9 +1,10 @@
 import './App.css'
+import Button from "./Components/atoms/Button/Button.tsx";
 
 function App() {
   return (
   <div>
-    Ok
+    <Button  styleType={"redButton"} text={"Перейти к категории >"}/>
   </div>
   )
 }
